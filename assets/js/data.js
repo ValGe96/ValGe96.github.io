@@ -39,11 +39,22 @@ const bulletPoints = [
 /**
  * Skills => softwares
  * list icons
- * Autodesk Maya, Blender, Microsoft Office, Procreate, Premier Pro, TV Paint, After Effects, Mudbox, Arnold render, Pixar’s Renderman, Shotgun, Unreal Engine
+ * * list icons. Name of the file you want to show in forlder /assets/img/software-logos
 */
 const softwareLogos = [
-  'blender.png',
-  'maya.png',
+  '1512977157_TVPaint-logo.png',
+  'Adobe_After_Effects-Logo.wine.png',
+  'ArnoldRendere.jpg',
+  'Blender (1).png',
+  'Maya.webp',
+  'MicrosoftOffice.png',
+  'Mudbox.jpg',
+  'PremierPro.png',
+  'Renderman.png',
+  'Shotgun_Software_Logo.png',
+  'clickup-logo-gradient.png',
+  'procreate-icon-search-display.png',
+  'unreal_engine_logo_icon_144771.png',
 ]
 
 /**
@@ -93,6 +104,11 @@ const typed = new Typed("#hero-adjectives", {
 const aboutSectionParagraph = document.getElementById('about-paragraph');
 if (aboutParagraph) {
   aboutSectionParagraph.innerText = aboutParagraph;
+}
+
+const softwaresSection = document.getElementById('softwares');
+if (softwareLogos.length > 0) {
+  softwaresSection.innerHTML = softwareLogos.map((logo) => `<span><img src="./assets/img/software-logos/${logo}" /></span>`).join('');
 }
 
 const contactSectionParagraph = document.getElementById('contact-paragraph');
