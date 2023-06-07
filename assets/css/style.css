@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #DAB9FB;
   text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #000000;
 }
 
 .nav-menu a:hover,
@@ -190,7 +190,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #DAB9FB;
 }
 
 /* Mobile Navigation */
