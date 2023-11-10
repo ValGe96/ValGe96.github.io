@@ -54,7 +54,6 @@ const softwareLogos = [
   'Shotgun_Software_Logo.png',
   'clickup-logo-gradient.png',
   'procreate-icon-search-display.png',
-  'unreal_engine_logo_icon_144771.png',
 ]
 
 /**
