@@ -516,7 +516,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 
-.resume .row {
+.resume .column {
   float: left;
   width: 50%;
 }
