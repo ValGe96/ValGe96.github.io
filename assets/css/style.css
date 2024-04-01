@@ -656,7 +656,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -680,6 +680,35 @@ section {
   bottom: 0;
 }
 
+.portfolio .portfolio-wrap .portfolio-title {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .portfolio-wrap .portfolio-title h6 {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  background: rgba(20, 157, 221, 0.75);
+  transition: 0.3s;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-title h6:hover {
+  background: rgba(20, 157, 221, 0.95);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-title {
+  opacity: 1;
+  top: 0;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
