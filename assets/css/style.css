@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #DAB9FB;
+  color: #bbe4e9;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #DAB9FB;
+  background: #bbe4e9;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #579dce;
+  background: #5585b5;
   overflow-y: auto;
 }
 
@@ -108,8 +108,8 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #000000;
-  color: #fff;
+  background: #fff;
+  color: #5585b5;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -121,7 +121,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #DAB9FB;
+  background: #bbe4e9;
   color: #fff;
   text-decoration: none;
 }
@@ -189,7 +189,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #DAB9FB;
+  color: #bbe4e9;
 }
 
 /* Mobile Navigation */
@@ -962,14 +962,14 @@ section {
 }
 
 .contact .social-links a:hover {
-  background: #DAB9FB;
+  background: #bbe4e9;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #DAB9FB;
+  background: #bbe4e9;
   color: #fff;
 }
 
@@ -1066,7 +1066,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #DAB9FB;
+  background: #bbe4e9;
 }
 
 @keyframes animate-loading {
@@ -1131,14 +1131,14 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
+  color: #fff;
   font-size: 14px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #579DCE;
+  background: #5585b5;
 }
 
 #footer .copyright {
@@ -1149,7 +1149,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #eaebf0;
+  color: #fff;
 }
 
 @media (max-width: 1199px) {
